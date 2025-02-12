@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,6 +23,13 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+
+        {/* New Week 4 Assignment Link */}
+        <div className="mt-4">
+          <Link href="/week-4" className="text-blue-500 hover:underline text-lg">
+            Week 4 Assignment
+          </Link>
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -99,3 +107,4 @@ export default function Home() {
     </div>
   );
 }
+
