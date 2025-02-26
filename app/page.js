@@ -24,10 +24,15 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        {/* New Week 4 Assignment Link */}
         <div className="mt-4">
           <Link href="/week-4" className="text-blue-500 hover:underline text-lg">
             Week 4 Assignment
+          </Link>
+        </div>
+
+        <div className="mt-4">
+          <Link href="/week-5" className="text-blue-500 hover:underline text-lg">
+            Week 5 Assignment
           </Link>
         </div>
 
@@ -107,4 +112,5 @@ export default function Home() {
     </div>
   );
 }
+
 
