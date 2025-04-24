@@ -25,6 +25,12 @@ export default function Home() {
         </ol>
 
         <div className="mt-4">
+          <Link href="/week-2" className="text-blue-500 hover:underline text-lg">
+            Week 2 Assignment
+          </Link>
+        </div>
+
+        <div className="mt-4">
           <Link href="/week-4" className="text-blue-500 hover:underline text-lg">
             Week 4 Assignment
           </Link>
@@ -33,6 +39,30 @@ export default function Home() {
         <div className="mt-4">
           <Link href="/week-5" className="text-blue-500 hover:underline text-lg">
             Week 5 Assignment
+          </Link>
+        </div>
+
+        <div className="mt-4">
+          <Link href="/week-6" className="text-blue-500 hover:underline text-lg">
+            Week 6 Assignment
+          </Link>
+        </div>
+
+        <div className="mt-4">
+          <Link href="/week-7" className="text-blue-500 hover:underline text-lg">
+            Week 7 Assignment
+          </Link>
+        </div>
+
+        <div className="mt-4">
+          <Link href="/week-8" className="text-blue-500 hover:underline text-lg">
+            Week 8 Assignment
+          </Link>
+        </div>
+
+        <div className="mt-4">
+          <Link href="/week-9" className="text-blue-500 hover:underline text-lg">
+            Week 9 Assignment
           </Link>
         </div>
 
@@ -112,5 +142,4 @@ export default function Home() {
     </div>
   );
 }
-
 
